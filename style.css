@@ -1,0 +1,23 @@
+p{
+    font-size:large;
+}
+.emptyMssg{
+    text-align: center;
+}
+.gradient-background {
+            background: linear-gradient(300deg, rgb(2, 21, 38),rgb(3, 52, 110), rgb(110, 172, 218),rgb(226, 226, 182));
+            background-size: 100% 100%;
+            animation: gradient-animation 18s ease infinite;
+          
+          }
+@keyframes gradient-animation {
+            0% {
+            background-position: 0% 50%;
+            }
+            50% {
+            background-position: 100% 50%;
+            }
+            100% {
+            background-position: 0% 50%;
+            }
+        }
